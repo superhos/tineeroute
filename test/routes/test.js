@@ -1,11 +1,7 @@
 module.exports.tineeroute = testRoute;
 
 function testRoute(req,res,next){
-	console.log(req.path);
-	var func = req.path.split('/')[1];
-	var efunc = eval(func);
-	efunc(req,res,next);
-	// this[func](req,res,next);
+
 }
 
 testRoute.prototype = {
