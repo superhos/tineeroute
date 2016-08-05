@@ -1,0 +1,30 @@
+{
+  "name": "tineeroute",
+  "version": "1.0.0",
+  "description": "Auto route for express framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superhos/tineeroute.git"
+  },
+  "keywords": [
+    "auto",
+    "route",
+    "route",
+    "express"
+  ],
+  "author": "Sevens",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/superhos/tineeroute/issues"
+  },
+  "homepage": "https://github.com/superhos/tineeroute#readme",
+  "devDependencies": {
+    "express": "^4.14.0",
+    "mocha": "^3.0.1",
+    "supertest": "^2.0.0"
+  }
+}
