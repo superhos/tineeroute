@@ -31,8 +31,11 @@ describe('No Net Test', function(){
 		it('should return "1" from /getTestById?id=1', function(done){
 			request(app).get('/getTestById?id=1').expect(200).expect("1").end(done);
 		});
-		it('should return "1" from /postTest', function(done){
-			request(app).get('/postTest').expect(200).expect("post").end(done);
+		it('should return "post22" from /postTest', function(done){
+			request(app).get('/postTest').expect(200).expect("post22").end(done);
+		});
+		it('should return "1" from /index', function(done){
+			request(app).get('/index').expect(200).expect("1").end(done);
 		});
 	});
 	describe('/test2/test.js', function(){

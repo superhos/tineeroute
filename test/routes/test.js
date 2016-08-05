@@ -15,6 +15,11 @@ testRoute.prototype = {
   },
 
   postTest: function(req,res,next){
-    res.send('post');
+    res.send('post22');
+  },
+
+  index: function(req,res,next){
+  	res.send('1');
+  	// this.postTest(req,res,next);
   }
 };
